@@ -1044,8 +1044,8 @@ div#mCSB_1_container{
 /** banner-section **/
 
 .banner-section.style-one{
-  background: var(--primary-color);
-  margin: 10px;
+  /* background: var(--primary-color); */
+  margin: 0px;
 }
 
 .banner-section{
@@ -1274,6 +1274,7 @@ div#mCSB_1_container{
 }
 .banner-section.style-one .content-inner .image-box img {
   height: 100%;
+  max-height: 750px;
   background-size: cover;
 }
 .banner-section.style-one .content-inner .image-box.style-two{
@@ -1427,6 +1428,7 @@ div#mCSB_1_container{
 /** about-us **/
 .about__us{
   padding: 120px 0px;
+  margin: 0px 50px;
 }
 .about__us .normal__text {
   margin-bottom: 26px;
@@ -1502,7 +1504,7 @@ div#mCSB_1_container{
 }
 .food__left__content .food___text p {
   margin-bottom: 14px;
-  color: var(--higer-secondary-color);
+  color: var(--main-color);
 }
 .more__button a {
   font-weight: 500;
@@ -1542,7 +1544,7 @@ div#mCSB_1_container{
   background-size: cover;
 }
 .kind__of__food {
-  margin: 10px 10px 0px;
+  margin: 0px 0px 0px;
 }
 .food__left__content .food____content:hover .food___img___block:before {
   transform: scale(1,1);
@@ -1578,6 +1580,7 @@ div#mCSB_1_container{
 
 section.menu__from__section{
   padding: 120px 0px;
+  margin: 0px 50px;
 }
 section.menu__from__section .swiper-slide .menu__img__block{
   position: relative;
@@ -2031,6 +2034,13 @@ section.video__section{
   margin-top: -8px;
   margin-left: 40px;
 }
+.header-lower{
+    background-image: url(../images/background/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #b31614;
+}
 
 .batter__food .icon.icons-1 {
   width: 386px;
@@ -2040,6 +2050,7 @@ section.video__section{
 }
 .batter__food {
   padding: 120px 0px 0px;
+  margin: 0px 50px;
 }
 .right__tab__section .icon.icons-4 {
   width: 839px;
@@ -2305,9 +2316,11 @@ section.video__section{
 
 /** main-footer **/
 footer.main-footer {
-  background: var(--primary-color);
-  margin: 0px 10px 0px;
+  background-image: url(../images/background/header-bg.png);
+  /* background: var(--primary-color); */
+  margin: 0px 0px 0px;
   overflow: hidden;
+
 }
 .footer__title {
   padding: 108px 0px 91px 235px;

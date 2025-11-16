@@ -1,11 +1,10 @@
 :root {
-  --theme-color:#C9AB81;
-  --primary-color:#0F1D22;
+  --theme-color:#B31614;
+  --primary-color:#B31614;
   --secondary-color:#715B3E;
   --white-color:#fff;
-  --higer-secondary-color:#B0B0B0;
-
-
+  --higer-secondary-color:#000;
+  --main-color:#F0DCAC;
   --primary-font: 'Josefin Sans', sans-serif;
   --secondary-font: 'Oswald';
   --higer-secondary-font: 'Tangerine';
@@ -49,6 +48,8 @@
 
 .sticky-header{
   background: var(--primary-color);
+  background-image: url(../images/background/header-bg.png);
+  
 }
 
 .theme-btn-one{

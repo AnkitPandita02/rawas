@@ -30,12 +30,13 @@ body {
   color:#8c8c8c;
   line-height:26px;
   font-weight:400;
-  background:#0B1315;
+  /* background:#E2867E; */
   font-family: 'Josefin Sans', sans-serif;
-  background-size:cover;
-  background-repeat:no-repeat;
+  background-size:contain;
+  background-repeat:repeat;
   background-position:center top;
   -webkit-font-smoothing: antialiased;
+  background-image: url(../images/background/bg.png);
 }
 
   @media (min-width:1200px) {
@@ -44,7 +45,9 @@ body {
     padding: 0px 15px;
   }
 }
-
+.main{
+  background-color: var(--main-color);
+}
 .large-container{
   max-width: 1700px;
   padding: 0px 15px;
@@ -74,7 +77,7 @@ body {
 
 .boxed_wrapper{
   position: relative;
-  padding: 0px 150px;
+  padding: 0px 50px;
   min-width: 300px;
   z-index: 999;
   overflow: hidden;
