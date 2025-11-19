@@ -1485,7 +1485,7 @@ div#mCSB_1_container{
 
 /** kind of food **/
 .food__left__content {
-  background: var(--primary-color);
+  background-image: url(../images/background/header-bg.png);
   padding: 99px 90px;
 }
 .food__left__content .img__block {
