@@ -274,7 +274,7 @@
   margin-right: 19px;
 }
 .main-menu .navigation > li.current > a{
-  color: var(--theme-color);
+  color: #f0dcac;
 }
 .main-menu .navigation > li > ul,
 .main-menu .navigation > li > .megamenu{
@@ -1440,7 +1440,7 @@ div#mCSB_1_container{
   float: right;
 }
 .about__right__img__two:after {
-  content: "Since 2022";
+  content: "Est. 2025";
   font-family: var(--higer-secondary-font);
   font-style: normal;
   font-weight: 700;
@@ -1448,7 +1448,7 @@ div#mCSB_1_container{
   line-height: 29px;
   color: var(--secondary-color);
   transform: rotate(-90deg);
-  right: -124px;
+  right: -120px;
   top: 300px;
   position: absolute;
 }
@@ -4420,7 +4420,7 @@ section.product__section.two .food__left__content .row > *:nth-child(2){
 .page-title {
   position: relative;
   overflow: hidden;
-  margin: 10px;
+  /* margin: 10px; */
   padding: 214px 0px 214px;
 }
 .page-title:before {
@@ -4555,7 +4555,7 @@ section.menu__banner__page {
   padding: 120px 0px;
 }
 .form-inner {
-  background: var(--primary-color);
+    background-image: url(../images/background/header-bg.png);
   border-radius: 5px;
   margin-right: 10px;
   padding: 140px;
@@ -4620,7 +4620,8 @@ textarea {
   padding-top: 120px;
 }
 .contact__top .address {
-  background: #0F1D22;
+     background-image: url(../images/background/header-bg.png);
+
   border-radius: 10px;
   padding: 50px 30px;
   text-align: center;
