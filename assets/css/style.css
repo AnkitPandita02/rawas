@@ -1107,7 +1107,7 @@ div#mCSB_1_container{
   display: block;
   color: var(--white-color);
   font-weight: 200;
-  font-size: 75px;
+  font-size: 58px;
   line-height: 74px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -1172,7 +1172,7 @@ div#mCSB_1_container{
   display: block;
   font-weight: 400;
   color: var(--higer-secondary-color);
-  font-size: 16px;
+  font-size: 21px;
   line-height: 29px;
   font-weight: 500;
   margin-bottom: 32px;
@@ -1664,7 +1664,7 @@ section.menu__from__section .swiper-slide .menu__img__block img{
   margin-bottom: 18px;
 }
 .menu__from__section .swiper-wrapper>* .menu__text__block  .sub____title span{
-  color: var(--white-color);
+  color: #000;
 }
 .menu__from__section .swiper-wrapper>*:nth-child(odd) .menu__text__block  .sub____title{
   padding-top: 20px;
