@@ -304,6 +304,14 @@ h6{
   line-height: 30px;
 }
 
+@media screen and (max-width:568px) {
+  h1{
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 36px;
+}
+}
+
 a:hover{
   color: var(--theme-color);
 }
