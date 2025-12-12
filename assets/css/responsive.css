@@ -937,3 +937,10 @@
   }
 
 }
+
+
+@media screen and (max-width:568px) {
+  section.menu__from__section{
+    padding: 0px 0px;
+  }
+}
